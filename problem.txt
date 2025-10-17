@@ -1,0 +1,30 @@
+Test Technique - Alternance Développeur
+Sujet : Scraper TikTok Conteneurisé
+Objectif
+Développer un scraper qui récupère les informations des vidéos d'un compte TikTok et les stocke dans un fichier CSV. L'application doit être conteneurisée avec Docker. (chaine tiktok   hugodecrypte)
+Données à extraire
+Pour chaque vidéo d'un compte TikTok :
+URL de la vidéo 
+Description 
+Thumbnail 
+Nombre de vues 
+Nombre de likes 
+Nombre de commentaires 
+Livrables attendus
+Un script Python qui réalise le scraping 
+Export des données en fichier CSV 
+Dockerfile pour conteneuriser l'application 
+Documentation basique (README) 
+Contraintes techniques
+Langage : Python 
+Conteneurisation : Docker 
+Le conteneur doit pouvoir être lancé avec une simple commande 
+Les fichiers CSV doivent être persistés en dehors du conteneur 
+Critères d'évaluation
+Fonctionnalité : le scraper fonctionne et génère le CSV 
+Qualité du code : lisibilité et structure 
+Conteneurisation : Dockerfile fonctionnel 
+Gestion des erreurs basique 
+Mettre le code dans un repository Github et envoyer le lien du repository par email
+Bonne chance !
+
