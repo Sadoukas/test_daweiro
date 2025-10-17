@@ -116,32 +116,6 @@ daweiro/
 └── README.md            # This documentation
 ```
 
-## Technical Features
-
-### Intelligent Scraping
-- **Playwright** for modern web navigation
-- **Progressive scrolling** to load all videos
-- **Multiple selectors** to adapt to TikTok changes
-- **Rate limiting** to avoid detection
-
-### Error Handling
-- **Retry logic** with exponential backoff
-- **Detailed logs** with colors
-- **Configurable timeouts**
-- **Fallback** in case of video failure
-
-### Data Export
-- **Standard CSV format**
-- **Data validation** before export
-- **Scraping statistics**
-- **File persistence** outside the container
-
-### Containerization
-- **Optimized image** with Python 3.11
-- **Persistent volumes** for data
-- **Non-root user** for security
-- **Configurable resource limits**
-
 ### Logs and Debugging
 
 Logs are saved in the `logs/` folder:
