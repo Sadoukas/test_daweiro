@@ -6,8 +6,6 @@ A TikTok scraper developed in Python using Playwright to extract video data from
 
 Develop a scraper that retrieves video information from a TikTok account and stores it in a CSV file. The application must be containerized with Docker.
 
-**Target account:** @hugodecrypte
-
 ## Extracted Data
 
 For each video from a TikTok account:
