@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  tiktok-scraper:
+    build: .
+    container_name: tiktok-scraper
+    volumes:
+      # Mount data directory to persist CSV files
+      - ./data:/app/data
+      # Mount logs directory to persist log files
+      - ./logs:/app/logs
+    environment:
+      # Override default configuration
+      - TIKTOK_USERNAME=hugodecrypte
+      - MAX_VIDEOS=3
+      - HEADLESS_MODE=true
+      - OUTPUT_DIR=/app/data
+    # Restart policy
+    restart: "no"
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
